@@ -1,0 +1,156 @@
+:root {
+  --primary-text-color-slate: #434455;
+  --section-dg-color: rgb(206, 250, 211);
+  --border-color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  color: var(--primary-text-color-slate);
+  font-family: "Roboto", sans-serif;
+  background: var(--section-dg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #5be82c;
+}
+footer {
+  background-color: #5be82c;
+  margin-top: 24px;
+}
+.link {
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+section {
+  padding: 0 40px;
+  margin-bottom: 44px;
+}
+.article-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.article-items {
+  width: 300px;
+  padding: 5px;
+}
+.main-header {
+  font-size: 40px;
+  padding: 16px;
+}
+.second-header {
+  font-size: 30px;
+  padding: 16px;
+}
+.container-video-table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title-video-table {
+  font-size: 44px;
+  padding: 24px;
+}
+.link-home {
+  font-size: 24px;
+}
+.link-home:hover,
+.link-home:focus {
+  transform: scale(2, 3);
+}
+.page {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 50px;
+  justify-items: center;
+  padding-top: 24px;
+  font-weight: 500;
+}
+.article-img {
+  height: 165px;
+  width: 300px;
+}
+.page-img {
+  height: 300px;
+  width: 400px;
+  padding-top: 24px;
+}
+.table-tiile {
+  font-weight: bold;
+}
+.table {
+  margin-bottom: 24px;
+}
+.video-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

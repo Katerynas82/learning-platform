@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CSS: Styling Basics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<header>
+    <nav>
+        <a href="../index.html" class="link-home">← Home</a>
+        <a href="./page3.html" class="link-home">← Back</a>
+        <a href="./page5.html" class="link-home">Next →</a>
+        
+    </nav>
+    <h1 style="padding-top: 24px">CSS: Styling Basics</h1>
+</header>
+<main>
+
+    <body>
+        <section class="section">
+
+            <h2 style="padding-top: 24px">
+                Introduction to CSS, how to style HTML elements.
+            </h2>
+
+            <div class="page">
+                <img src="../images/pexels-bibek-ghosh-14553706.jpg" alt="Form" 
+                   class="page-img" />
+
+                <div style="padding-top: 24px">
+
+
+                    <p style="text-align:start">
+                        CSS (Cascading Style Sheets) is used to style HTML elements and create visually appealing web
+                        pages. Here’s an overview
+                        of key concepts:
+
+                        <h3>What are Selectors?</h3>
+                        Selectors are used in CSS to target HTML elements that you want to style. Common types of
+                        selectors include:
+
+                        Element selectors: Target specific HTML tags, like p {} to style all 'p' tags.
+                        Class selectors: Target elements with a specific class attribute, written as .classname {}.
+                        ID selectors: Target a unique element with a specific id, written as #idname {}.
+                        Attribute selectors: Target elements based on their attributes, such as input[type="text"].
+                    </p>
+                </div><img src="../images/css-declaration-small.png" alt="form" 
+                   class="page-img" />
+                <div style="padding-top: 24px">
+                    <p style="text-align:start">
+                        <h3>Basic CSS Properties</h3>
+                        Color: Used to set text or background color. For example, color: red; changes text color, while
+                        background-color: blue;
+                        sets the background color.
+                        Font size: Controls text size with font-size, such as font-size: 16px;.
+                        Margins: Define space outside an element. margin: 10px; sets an equal margin on all sides.
+                        Padding: Defines space inside the element, between the content and the element’s border. For
+                        example, padding: 15px;.
+                        The Importance of Cascade and Specificity
+                        CSS follows a cascading order, meaning styles are applied based on their order of appearance.
+                        Specificity determines
+                        which styles take priority. Inline styles have the highest priority, followed by ID selectors,
+                        class selectors, and
+                        finally element selectors.
+
+                        <h3>How to Link CSS to HTML</h3>
+                        Inline styles: Added directly to the HTML tag using the style attribute.
+                        Internal styles: Written within the 'style'
+                        tag inside the HTML’s 'head'. External styles: Linked using 'link'to an external CSS file,
+                        which is the preferred method for maintaining clean and reusable code. Understanding these key
+                        concepts allows developers to efficiently style web pages with CSS.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+</main>
+</body>
+
+</html>

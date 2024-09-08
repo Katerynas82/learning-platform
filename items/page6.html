@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Typography in web design: Fonts and CSS text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<header>
+    <nav>
+        <a href="../index.html" class="link-home">← Home</a>
+        <a href="./page5.html" class="link-home">← Back</a>
+        <a href="./page7.html" class="link-home">Next →</a>
+        
+    </nav>
+    <h1 style="padding-top: 24px">Typography in web design: Fonts and CSS text</h1>
+</header>
+<main>
+
+    <body>
+        <section class="section">
+
+            <h2 style="padding-top: 24px">
+                Working with Text, Fonts, and Typography in CSS
+            </h2>
+
+            <div class="page">
+                <img src="../images/web-fonts-2.png" alt="Fonts" class="page-img" />
+
+                <div style="padding-top: 24px">
+
+
+                    <p style="text-align:start">
+                        Typography plays a crucial role in web design, as it affects both the visual appeal and readability of a website. CSS
+                        provides a variety of tools for managing text and fonts. Here’s a breakdown of key concepts:
+                        
+                        <h3>Font Properties</h3>
+                        font-family: Defines the font to be used. It's good practice to list multiple font families as fallbacks (e.g.,
+                        font-family: Arial, sans-serif;).
+                        font-size: Sets the size of the text. This can be defined in units like px, em, or rem (e.g., font-size: 16px;).
+                        font-weight: Controls the boldness of the text. Common values include normal, bold, and numerical values (e.g.,
+                        font-weight: 700;).
+                        <h3>Text Alignment, Line Spacing, and Letter Spacing</h3>
+                        text-align: Specifies how text is aligned within its container. Options include left, right, center, and justify.
+                        line-height: Controls the vertical spacing between lines of text. Increasing this value can improve readability (e.g.,
+                        line-height: 1.5;).
+                        letter-spacing: Adjusts the space between characters, useful for fine-tuning the appearance of text (e.g.,
+                        letter-spacing: 0.1em;).
+                    </p>
+                </div><img src="../images/fonts.webp" alt="Fonts" class="page-img" />
+                <div style="padding-top: 24px">
+                    <p style="text-align:start">
+                    <h3>Using Web Fonts (Google Fonts)</h3>
+                    Web fonts, like those from Google Fonts, allow designers to use custom fonts not installed on users' devices. To include
+                    a Google Font, simply add a
+                    'link' to the font in your HTML and apply it using font-family in your CSS:
+                    <br/>'link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"''
+                    <br/> body {
+                    font-family: 'Roboto', sans-serif;
+                    }
+                    <br/> <h3>Text Decoration</h3>
+                    Text shadows: Add depth or emphasis with text-shadow (e.g., text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);).
+                    Underlining: Use text-decoration for underlining, overlining, or striking through text (e.g., text-decoration:
+                    underline;).
+                    Headings: Properly style headings (h1 to h6) to create hierarchy and structure.
+                    These tools provide flexibility in styling and arranging text for a clean, professional look.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+</main>
+</body>
+
+</html>

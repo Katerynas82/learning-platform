@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Typography in web design: Fonts and CSS text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<header>
+    <nav>
+        <a href="../index.html" class="link-home">← Home</a>
+        <a href="./page6.html" class="link-home">← Back</a>
+        <a href="./page8.html" class="link-home">Next →</a>
+
+    </nav>
+    <h1 style="padding-top: 24px">Responsive design: Creating sites for different devices.</h1>
+</header>
+<main>
+
+    <body>
+        <section class="section">
+
+            <h2 style="padding-top: 24px">
+                Basics of Responsive Web Design for Different Devices
+            </h2>
+
+            <div class="page">
+                <img src="../images/Designing-for-multiple-devices-1000.jpg" alt="Fonts" class="page-img" />
+
+                <div style="padding-top: 24px">
+
+
+                    <p style="text-align:start">
+                        Responsive web design ensures that websites look and function well on a variety of devices, from desktops to mobile
+                        phones. Modern techniques like media queries, Flexbox, and Grid help in building layouts that adapt seamlessly. Here are
+                        key concepts:
+
+                    <h3>What are Media Queries?</h3>
+                    Media queries are CSS rules that apply styles based on the device’s characteristics, such as screen size, orientation,
+                    or resolution. They allow developers to create different styles for various devices. A common example:
+                    
+                    <br/> 
+                    <pre>
+                    @media (max-width: 768px) {
+                    body {
+                    font-size: 14px;
+                    }
+                    }</pre>
+                    This rule applies smaller text when the screen width is less than 768 pixels, making the page more readable on mobile
+                    devices.
+                    
+                    <h3>Using Flexbox and Grid for Responsive Design</h3>
+                    Flexbox: Flexbox is great for creating one-dimensional layouts that adapt to different screen sizes. It allows you to
+                    easily manage spacing, alignment, and the order of elements. For example, items can automatically wrap into multiple
+                    rows on smaller screens with flex-wrap: wrap.
+                    
+                    CSS Grid: Grid is ideal for two-dimensional layouts. You can create responsive grids by defining columns and rows that
+                    adjust to the available space, making it easier to design complex, responsive layouts.
+                    </p>
+                </div><img src="../images/Responsiveresp.png" alt="Fonts" class="page-img" />
+                <div style="padding-top: 24px">
+                    <p style="text-align:start">
+                    <h3>Mobile-First Design</h3>
+                    A mobile-first approach involves designing the website for small screens first and then using media queries to adjust
+                    for larger devices. This ensures that mobile users get an optimal experience. Key elements include larger touch targets,
+                    simplified navigation, and avoiding horizontal scrolling.
+                    
+                    <h3>Best Practices for Responsive Design</h3>
+                    Fluid Layouts: Use percentage-based widths rather than fixed pixel values, allowing elements to scale fluidly with
+                    screen size.
+                    Responsive Images: Use the srcset attribute to load appropriately sized images for different devices, reducing load
+                    times.
+                    Viewport Meta Tag: Ensure the website scales correctly on mobile with the following meta tag:
+                <br/>
+                   
+                    'meta name="viewport" content="width=device-width, initial-scale=1.0"'
+                    <br/>
+                    These techniques help create websites that are visually appealing and functional across a wide range of devices.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+</main>
+</body>
+
+</html>

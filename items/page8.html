@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CSS animations and effects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<header>
+    <nav>
+        <a href="../index.html" class="link-home">← Home</a>
+        <a href="./page7.html" class="link-home">← Back</a>
+
+
+    </nav>
+    <h1 style="padding-top: 24px">CSS animations and effects</h1>
+</header>
+<main>
+
+    <body>
+        <section class="section">
+
+            <h2 style="padding-top: 24px">
+                CSS Transforms, Transitions, and Animations
+            </h2>
+
+            <div class="page">
+                <img src="../images/Anim.jpg" alt="Fonts" class="page-img" />
+
+                <div style="padding-top: 24px">
+
+
+                    <p style="text-align:start">
+                        CSS allows for smooth, visually engaging interactions using transforms, transitions, and animations. These tools help
+                        create dynamic websites that respond to user actions or automatically change over time. Below are key concepts and best
+                        practices for working with CSS animations.
+                    <h3>Using CSS Transforms and Transitions</h3>
+                    1. transform: This property enables elements to be scaled, rotated, skewed, or moved without changing the document flow.
+                    Common transformations include:
+                    
+                    <br/>scale(): Changes the size of an element. Example: transform: scale(1.2);.
+                    <br />rotate(): Rotates an element by a specified degree. Example: transform: rotate(45deg);.
+                    <br />translate(): Moves an element along the X or Y axis. Example: transform: translateX(100px);.
+                    <br />transition: Used to animate changes to a property over time. By applying transition, you can make property changes (like
+                    color or position) smooth. Example:
+                    
+                    
+                    <pre>
+                    button {
+                    transition: background-color 0.3s ease-in-out;
+                    }
+                    
+                    button:hover {
+                    background-color: blue;
+                    }</pre>
+                    In this example, the button’s background color smoothly changes to blue when hovered.
+                    </p>
+                </div><img src="../images/Animсss.png" alt="Fonts" class="page-img" />
+                <div style="padding-top: 24px">
+                    <p style="text-align:start">
+                   <p> <h3>Basics of CSS Animations (@keyframes)</h3>
+                    @keyframes is used to create more complex animations by defining stages of an animation. You can control what happens at
+                    different points (e.g., 0%, 50%, 100%). For example:
+                    
+                   <pre>
+                    @keyframes slideIn {
+                    0% {
+                    transform: translateX(-100%);
+                    }
+                    100% {
+                    transform: translateX(0);
+                    }
+                    }
+                    
+                    .element {
+                    animation: slideIn 1s ease-in-out;
+                    }</pre>
+                    In this example, the element moves in from the left side over 1 second.
+                    
+                    <h3>Simple Animation Examples</h3>
+                    Button Hover: Adding transform and transition creates interactive hover effects, like enlarging or changing the color of
+                    buttons.
+                    <h3>Image Hover:</h3> You can rotate or scale images on hover, creating engaging visual effects.
+                    Animated Menu: Menus can slide in and out or fade when opened or closed using transitions and keyframe animations.
+                    Best Practices for Animations
+                    <br />Performance: Stick to animating properties like opacity, transform, and filter for better performance, as these don’t
+                    cause layout reflows.
+                    <br />Subtlety: Keep animations subtle and avoid excessive or distracting motion.
+                    <br />Consistency: Use similar timing and easing functions (ease-in-out, linear) across animations for a smooth, cohesive
+                    experience.
+                    CSS animations can make websites more interactive and engaging when used thoughtfully.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+</main>
+</body>
+
+</html>
