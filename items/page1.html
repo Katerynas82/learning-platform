@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>P1</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Basics of web development, HTML and CSS. Learn how to create web pages, style them, and make them responsive." />
+  <meta name="keywords"
+    content="HTML, CSS, web development, responsive design, web design, web pages" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' https:; script-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;" />  
+  <title>Introduction to HTML and CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KJWVLEE3C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KJWVLEE3C');
+</script>
+
+<body>
   <header>
     <nav>
-      <a href="../index.html" class="link-home">← Home</a>
-      
-      <a href="./page2.html" class="link-home">Next →</a>
-    
+      <a href="../index.html" class="link-home" aria-label="Go to Home page">← Home</a>
+      <a href="./page2.html" class="link-home" aria-label="Go to Next page">Next →</a>
     </nav>
-    <h1 style="padding-top: 24px">Introduction to HTML and CSS</h1>
+    <h1 class="main-header">Introduction to HTML and CSS</h1>
   </header>
-<main>
-  <body>
+
+  <main>
     <section class="section">
-     
+    
       <h2 style="padding-top: 24px">
         This article covers the basics of web development, how web pages work,
         what HTML and CSS are, and why they're important.
       </h2>
-
+    
       <div class="page">
-        <img
-          src="../images/intro-html-css.jpg"
-          alt="label HTML, CSS" 
-          class="page-img"" 
-        />
-       
-<div style="padding-top: 24px">
-        <p >
+        <img src="../images/intro-html-css.jpg" alt="label HTML, CSS" class="page-img"" 
+            />
+           
+    <div style=" padding-top: 24px">
+        <p>
           Key topics: What is HTML (page structure), What is CSS (styling),
           Interaction of HTML and CSS, Viewers and their role.
-
+    
           <br />HTML (HyperText Markup Language) is the foundational language
           used to structure content on the web. It defines the structure and
           layout of a web page by using a variety of elements or "tags." These
@@ -52,8 +65,8 @@
           HTML Document Structure: Every HTML document starts with a basic
           structure.
         </p>
-</div><img src="../images/EXCode.png" alt="HTML code" class="page-img" />
-<div style="padding-top: 24px"> 
+      </div><img src="../images/EXCode.png" alt="HTML code" class="page-img" />
+      <div style="padding-top: 24px">
         <p>
           CSS (Cascading Style Sheets) is a style language used to describe the
           appearance of HTML elements on a web page. It allows you to set
@@ -61,24 +74,27 @@
           CSS separates the content (HTML) from the presentation, providing
           convenient modification of the appearance of the site without changing
           its structure.</p>
-           
-          <p>Interaction of HTML and CSS: HTML is responsible for the
+    
+        <p>Interaction of HTML and CSS: HTML is responsible for the
           structure of a web page, i.e. the arrangement of elements such as
           text, images, forms, etc. CSS, in turn, provides the ability to style
           these elements. HTML and CSS work together: HTML creates the
           "framework" and CSS "colors" and adds visual appeal. CSS can be linked
           to HTML in three ways: via an external file, in a style section, or
-          directly in elements. 
+          directly in elements.
           <p />
-          <p>Browsers play an important role because they interpret HTML and CSS
+        <p>Browsers play an important role because they interpret HTML and CSS
           code, turning it into a visually understandable web page. Different
           browsers can display the same code differently, so it is important to
           test the site in several browsers to ensure the same display quality.
         </p>
         </div>
-      
       </div>
     </section>
-    </main>
-  </body>
+  </main>
+<footer>
+  <h3>&copy; Kateryna Sukovaia, Ayrshire College HNC Computing 2024</h3>
+</footer>
+</body>
+
 </html>
